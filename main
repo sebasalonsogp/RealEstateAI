@@ -1,0 +1,206 @@
+% Define properties
+property(p1, [city('Kendall'), price(500000),  school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(800), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+property(p2, [city('Coral Gables'), price(550000), school_rank(7), bedroom(4), bathroom(3), sqft(2500), community(urban), style(apt), pool(no), hoa_fee(225), safety_rank(8), walkability_rank(9), parking_spaces(1), nearby_activity_rank(8)]).
+property(p3, [city('Hialeah'), price(350000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p4, [city('Miami Beach'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p5, [city('Brickell'), price(750000), school_rank(10), bedroom(6), bathroom(5), sqft(3500), community(urban), style(apt), pool(no), hoa_fee(375), safety_rank(10), walkability_rank(10), parking_spaces(4), nearby_activity_rank(10)]).
+property(p6, [city('Downtown'), price(450000), school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(150), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+property(p7, [city('Pinecrest'), price(550000), school_rank(7), bedroom(4), bathroom(3), sqft(2500), community(urban), style(apt), pool(no), hoa_fee(225), safety_rank(8), walkability_rank(9), parking_spaces(1), nearby_activity_rank(8)]).
+property(p8, [city('Coconut Grove'), price(350000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p9, [city('South Miami'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p10, [city('Doral'), price(750000), school_rank(10), bedroom(6), bathroom(5), sqft(3500), community(urban), style(apt), pool(no), hoa_fee(375), safety_rank(10), walkability_rank(10), parking_spaces(4), nearby_activity_rank(10)]).
+property(p11, [city('Miramar'), price(450000), school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(150), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+property(p12, [city('Miami Gardens'), price(550000), school_rank(7), bedroom(4), bathroom(3), sqft(2500), community(urban), style(apt), pool(no), hoa_fee(225), safety_rank(8), walkability_rank(9), parking_spaces(1), nearby_activity_rank(8)]).
+property(p13, [city('Miami Lakes'), price(350000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p14, [city('Westchester'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p15, [city('Key Biscayne'), price(750000), school_rank(10), bedroom(6), bathroom(5), sqft(3500), community(urban), style(apt), pool(no), hoa_fee(375), safety_rank(10), walkability_rank(10), parking_spaces(4), nearby_activity_rank(10)]).
+property(p16, [city('North Miami Beach'), price(450000), school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(150), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+property(p17, [city('Sweetwater'), price(550000), school_rank(7), bedroom(4), bathroom(3), sqft(2500), community(urban), style(apt), pool(no), hoa_fee(225), safety_rank(8), walkability_rank(9), parking_spaces(1), nearby_activity_rank(8)]).
+property(p18, [city('Bal Harbour'), price(350000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p19, [city('Kendall'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p20, [city('Coral Gables'), price(750000), school_rank(10), bedroom(6), bathroom(5), sqft(3500), community(urban), style(apt), pool(no), hoa_fee(375), safety_rank(10), walkability_rank(10), parking_spaces(4), nearby_activity_rank(10)]).
+property(p21, [city('Hialeah'), price(450000), school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(150), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+property(p22, [city('Miami Beach'), price(550000), school_rank(7), bedroom(4), bathroom(3), sqft(2500), community(urban), style(apt), pool(no), hoa_fee(225), safety_rank(8), walkability_rank(9), parking_spaces(1), nearby_activity_rank(8)]).
+property(p23, [city('Brickell'), price(350000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p24, [city('Downtown'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p25, [city('Pinecrest'), price(750000), school_rank(10), bedroom(6), bathroom(5), sqft(3500), community(urban), style(apt), pool(no), hoa_fee(375), safety_rank(10), walkability_rank(10), parking_spaces(4), nearby_activity_rank(10)]).
+property(p26, [city('Coconut Grove'), price(450000), school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(150), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+property(p27, [city('South Miami'), price(550000), school_rank(7), bedroom(4), bathroom(3), sqft(2500), community(urban), style(apt), pool(no), hoa_fee(225), safety_rank(8), walkability_rank(9), parking_spaces(1), nearby_activity_rank(8)]).
+property(p28, [city('Doral'), price(350000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p29, [city('Miramar'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p30, [city('Miami Gardens'), price(750000), school_rank(10), bedroom(6), bathroom(5), sqft(3500), community(urban), style(apt), pool(no), hoa_fee(375), safety_rank(10), walkability_rank(10), parking_spaces(4), nearby_activity_rank(10)]).
+property(p31, [city('Miami Lakes'), price(450000), school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(150), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+property(p32, [city('Westchester'), price(550000), school_rank(7), bedroom(4), bathroom(3), sqft(2500), community(urban), style(apt), pool(no), hoa_fee(225), safety_rank(8), walkability_rank(9), parking_spaces(1), nearby_activity_rank(8)]).
+property(p33, [city('Key Biscayne'), price(350000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p34, [city('North Miami Beach'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p35, [city('Sweetwater'), price(750000), school_rank(10), bedroom(6), bathroom(5), sqft(3500), community(urban), style(apt), pool(no), hoa_fee(375), safety_rank(10), walkability_rank(10), parking_spaces(4), nearby_activity_rank(10)]).
+property(p36, [city('Bal Harbour'), price(450000), school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(150), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+property(p37, [city('Kendall'), price(550000), school_rank(7), bedroom(4), bathroom(3), sqft(2500), community(urban), style(apt), pool(no), hoa_fee(225), safety_rank(8), walkability_rank(9), parking_spaces(1), nearby_activity_rank(8)]).
+property(p38, [city('Coral Gables'), price(350000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p39, [city('Hialeah'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p40, [city('Miami Beach'), price(750000), school_rank(10), bedroom(6), bathroom(5), sqft(3500), community(urban), style(apt), pool(no), hoa_fee(375), safety_rank(10), walkability_rank(10), parking_spaces(4), nearby_activity_rank(10)]).
+property(p41, [city('Brickell'), price(450000), school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(150), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+property(p42, [city('Downtown'), price(550000), school_rank(7), bedroom(4), bathroom(3), sqft(2500), community(urban), style(apt), pool(no), hoa_fee(225), safety_rank(8), walkability_rank(9), parking_spaces(1), nearby_activity_rank(8)]).
+property(p43, [city('Pinecrest'), price(350000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p44, [city('Coconut Grove'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p45, [city('South Miami'), price(750000), school_rank(10), bedroom(6), bathroom(5), sqft(3500), community(urban), style(apt), pool(no), hoa_fee(375), safety_rank(10), walkability_rank(10), parking_spaces(4), nearby_activity_rank(10)]).
+property(p46, [city('Doral'), price(450000), school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(150), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+property(p47, [city('Miramar'), price(550000), school_rank(7), bedroom(4), bathroom(3), sqft(2500), community(urban), style(apt), pool(no), hoa_fee(225), safety_rank(8), walkability_rank(9), parking_spaces(1), nearby_activity_rank(8)]).
+property(p48, [city('Miami Gardens'), price(350000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p49, [city('Miami Lakes'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p50, [city('Westchester'), price(850000), school_rank(10), bedroom(7), bathroom(6), sqft(4000), community(suburb), style(home), pool(yes), hoa_fee(450), safety_rank(10), walkability_rank(10), parking_spaces(5), nearby_activity_rank(10)]).
+property(p51, [city('Key Biscayne'), price(550000), school_rank(6), bedroom(2), bathroom(1), sqft(1500), community(rural), style(townhome), pool(yes), hoa_fee(75), safety_rank(7), walkability_rank(6), parking_spaces(0), nearby_activity_rank(5)]).
+property(p52, [city('North Miami Beach'), price(650000), school_rank(9), bedroom(5), bathroom(4), sqft(3000), community(suburb), style(home), pool(yes), hoa_fee(300), safety_rank(10), walkability_rank(10), parking_spaces(3), nearby_activity_rank(9)]).
+property(p53, [city('Sweetwater'), price(750000), school_rank(10), bedroom(6), bathroom(5), sqft(3500), community(urban), style(apt), pool(no), hoa_fee(375), safety_rank(10), walkability_rank(10), parking_spaces(4), nearby_activity_rank(10)]).
+property(p54, [city('Bal Harbour'), price(450000), school_rank(8), bedroom(3), bathroom(2), sqft(2000), community(suburb), style(home), pool(yes), hoa_fee(150), safety_rank(9), walkability_rank(8), parking_spaces(2), nearby_activity_rank(7)]).
+
+%adjacent cities
+adjacent_city('Kendall', 'Coral Gables').    
+adjacent_city('Kendall', 'Pinecrest').
+adjacent_city('Kendall', 'Westchester').
+adjacent_city('Coral Gables', 'Kendall').
+adjacent_city('Coral Gables', 'Coconut Grove').
+adjacent_city('Pinecrest', 'Kendall').
+adjacent_city('Pinecrest', 'Coconut Grove').
+adjacent_city('Pinecrest', 'Downtown').
+adjacent_city('Westchester', 'Kendall').
+adjacent_city('Westchester', 'Doral').
+adjacent_city('Coconut Grove', 'Coral Gables').
+adjacent_city('Coconut Grove', 'Pinecrest').
+adjacent_city('Coconut Grove', 'South Miami').
+adjacent_city('Downtown', 'Pinecrest').
+adjacent_city('Downtown', 'Brickell').
+adjacent_city('South Miami', 'Coconut Grove').
+adjacent_city('South Miami', 'Doral').
+adjacent_city('South Miami', 'Coral Gables').
+adjacent_city('Doral', 'Westchester').
+adjacent_city('Doral', 'Miramar').
+adjacent_city('Doral', 'South Miami').
+adjacent_city('Miramar', 'Doral').
+adjacent_city('Miramar', 'Miami Gardens').
+adjacent_city('Miami Gardens', 'Miramar').
+adjacent_city('Miami Gardens', 'Miami Lakes').
+adjacent_city('Miami Lakes', 'Miami Gardens').
+adjacent_city('Miami Lakes', 'Westchester').
+adjacent_city('Brickell', 'Downtown').
+adjacent_city('Brickell', 'Miami Beach').
+adjacent_city('Miami Beach', 'Brickell').
+adjacent_city('North Miami Beach', 'Sweetwater').
+adjacent_city('North Miami Beach', 'Bal Harbour').
+adjacent_city('Sweetwater', 'North Miami Beach').
+adjacent_city('Sweetwater', 'Doral').
+adjacent_city('Sweetwater', 'Westchester').
+adjacent_city('Bal Harbour', 'North Miami Beach').
+adjacent_city('Bal Harbour', 'Miami Beach').
+
+:- use_module(library(heaps)).
+
+% Main predicate to find the best properties based on preferences and weights
+find_properties_heap(Preferences, Weights, Heap) :-
+    build_heap(Preferences, Weights, Heap).
+
+find_properties(Preferences, Weights, SortedProperties) :-
+    build_heap(Preferences, Weights, Heap),
+    heap_to_list(Heap, HeapList),
+    maplist(extract_property_and_inverted_score, HeapList, InvertedScoreProperties),
+    maplist(invert_score, InvertedScoreProperties, SortedProperties).
+
+find_best_property(Preferences, Weights, BestProperty, BestPropertyAttributes, BestScore) :-
+    build_heap(Preferences, Weights, Heap),
+    get_from_heap(Heap, InvertedScore, BestProperty),
+    BestScore is -InvertedScore, % Invert score back to original
+    property(BestProperty, BestPropertyAttributes).
+
+find_property(Preferences, Weights, Property, Attributes, Score) :-
+    findall(Score-Prop-Attr, (property(Prop, Attr), calculate_score(Preferences, Weights, Attr, Score)), ScoredProperties),
+    sort(0, @>=, ScoredProperties, SortedScoredProperties),
+    member(Score-Property-Attributes, SortedScoredProperties).
+
+
+% Extract property ID and inverted score, ignoring other attributes
+extract_property_and_inverted_score(InvertedScore-Prop, property(Prop, InvertedScore)).
+
+% Invert score back to original
+invert_score(property(Prop, InvertedScore), property(Prop, Score)) :-
+    Score is -InvertedScore.
+
+% Build a heap from scored properties with inverted scores
+build_heap(Preferences, Weights, Heap) :-
+    findall(InvertedScore-Prop, (property(Prop, Attributes), calculate_score(Preferences, Weights, Attributes, Score), InvertedScore is -Score), ScoredProperties),
+    list_to_heap(ScoredProperties, Heap).
+
+% Extract the highest-scoring property from the heap (inverted score)
+get_from_heap(Heap, Score, Prop) :-
+    % Extract the root (highest inverted score) from the heap
+    get_from_heap(Heap, Score, Prop, _).
+
+
+% Calculate score for a single property
+calculate_score(Preferences, Weights, Attributes, Score) :-
+    findall(S, (member(Pref, Preferences), score_for_preference(Pref, Weights, Attributes, S)), Scores),
+    sum_list(Scores, Score).
+
+% Score calculation for each preference type
+score_for_preference(city(City), Weights, Attributes, Score) :-
+    memberchk(city(PropertyCity), Attributes),
+    ( PropertyCity == City -> % Exact match
+         weight_multiplier(city(City), Weights, Multiplier),
+         Score is 1 * Multiplier
+    ; adjacent_city(City, PropertyCity) -> % Adjacent city
+         weight_multiplier(city(City), Weights, Multiplier),
+         AdjacentScoreFactor = 0.5, % Adjust this factor as needed
+         Score is AdjacentScoreFactor * Multiplier
+    ; Score is 0 % No match
+    ).
+
+score_for_preference(community(Community), Weights, Attributes, Score) :-
+    (memberchk(community(Community), Attributes) -> weight_multiplier(community(Community), Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+score_for_preference(style(Style), Weights, Attributes, Score) :-
+    (memberchk(style(Style), Attributes) -> weight_multiplier(style(Style), Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+score_for_preference(pool(Pool), Weights, Attributes, Score) :-
+    (memberchk(pool(Pool), Attributes) -> weight_multiplier(pool(Pool), Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+% Numeric preferences
+score_for_preference(price(MaxPrice), Weights, Attributes, Score) :-
+    memberchk(price(Price), Attributes),
+    (Price =< MaxPrice -> weight_multiplier(price, Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+score_for_preference(sqft(MinSqft), Weights, Attributes, Score) :-
+    memberchk(sqft(Sqft), Attributes),
+    (Sqft >= MinSqft -> weight_multiplier(sqft, Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+score_for_preference(hoa_fee(MaxHoaFee), Weights, Attributes, Score) :-
+    memberchk(hoa_fee(HoaFee), Attributes),
+    (HoaFee =< MaxHoaFee -> weight_multiplier(hoa_fee, Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+score_for_preference(safety_rank(MinRank), Weights, Attributes, Score) :-
+    memberchk(safety_rank(Rank), Attributes),
+    (Rank >= MinRank -> weight_multiplier(safety_rank, Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+score_for_preference(walkability_rank(MinRank), Weights, Attributes, Score) :-
+    memberchk(walkability_rank(Rank), Attributes),
+    (Rank >= MinRank -> weight_multiplier(walkability_rank, Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+score_for_preference(school_rank(MinRank), Weights, Attributes, Score) :-
+    memberchk(school_rank(Rank), Attributes),
+    (Rank >= MinRank -> weight_multiplier(school_rank, Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+score_for_preference(parking_spaces(MinSpaces), Weights, Attributes, Score) :-
+    memberchk(parking_spaces(Spaces), Attributes),
+    (Spaces >= MinSpaces -> weight_multiplier(parking_spaces, Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+score_for_preference(bedroom(MinBedroom), Weights, Attributes, Score) :-
+    memberchk(bedroom(Bedroom), Attributes),
+    (Bedroom >= MinBedroom -> weight_multiplier(bedroom, Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+score_for_preference(bathroom(MinBathroom), Weights, Attributes, Score) :-
+    memberchk(bathroom(Bathroom), Attributes),
+    (Bathroom >= MinBathroom -> weight_multiplier(bathroom, Weights, Multiplier), Score is 1 * Multiplier; Score is 0).
+
+
+% Helper predicate to get weight multiplier for a preference
+weight_multiplier(Preference, Weights, Multiplier) :-
+    (memberchk(Preference-Weight, Weights) -> Multiplier = Weight; Multiplier = 1).
+
